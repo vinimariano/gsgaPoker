@@ -35,3 +35,4 @@ C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin
 C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Newtonsoft.Json.xml
 C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\obj\Debug\testChat.dll
 C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\obj\Debug\testChat.pdb
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\obj\Debug\GSGA-Poker.csprojResolveAssemblyReference.cache

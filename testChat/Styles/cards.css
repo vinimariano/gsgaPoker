@@ -72,12 +72,6 @@ body {
     margin-bottom: 10px;
 }
 
-.card {
-	background-color: rgba(204,204,204, 0.9);
-	margin-right:10px;
-	flex:1 ;
-}
-
 #buttonInside{
     margin-top: 10px;
 }
@@ -89,16 +83,22 @@ body {
     transform: translateY(-50%);
 }
 
+.card {
+	background-color: rgba(204,204,204, 0.9);
+	margin-right: 10px;
+	flex: 1;
+    display: flex;    
+    align-items: center;
+}
+
+.nype {
+    font-size: 8vmin;
+    flex: 1 1 auto;
+    align-self: center;
+}
+
 footer {
     font-size: 2vmin;
     margin-top: 15px;
     flex: 1;
-}
-
-.nype {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 8vmin;
-    flex: 1 1 auto;
 }
