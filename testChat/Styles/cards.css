@@ -1,57 +1,51 @@
-h1 {
-	color : white;
-	font-family: "Corbel";
-	text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-	margin-bottom: 1px;
-}
-
-h4 {
-		color : white;
-		margin-top: 1px;
-		font-family: "Corbel";
-}
-
-
 @media (max-width:450px){
 	#cardsContainer{
 	display : flex;
 	flex-flow: column;
+    	margin-top: 5px;
 					}
-}
-
-#central{
-	clear:both;
-	margin-bottom: 20px;
-	text-align: center;
-	display : flex;
-    box-shadow: inset 0px 0px 5px 5px lightgrey;
 }
 
 @media (min-width:451px){
 	#cardsContainer{
 	display : flex;
-	clear : both;
-	margin-top: 10px;
-					}
+	margin-top: 5px;
+    flex: 3;
+	}
 }
 
-.clearT {
-	float:left;
-	color : white;
-	font-family: "Corbel";
-	margin-right: 10px;
+h1 {
+	margin-bottom: 1px;
 }
 
-#img1{
-	width: 100px;
-	height: 100px;
-	float : right;
-	border-radius: 8px;
+h4 {
+	margin-top: 1px;
 }
 
-.voter{
-	max-width: 30%;
-	height: auto;
+#central{
+    padding-bottom: 10px;
+	display : flex;
+}
+
+header{
+    flex: 1;
+}
+
+#sectionCentral{
+    flex: 3;
+}
+
+.font{
+    	color : white;
+	    font-family: "Corbel";
+}
+
+.shadow{
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.center{
+        text-align: center;
 }
 
 .marginIt {
@@ -59,72 +53,52 @@ h4 {
 }
 
 #form{
-	margin-top: 10px;
-	float : left;
+    flex: 1;
 }
-
-#logged{
-	margin-bottom: 25px;
-	float:right;
-}
-
 
 body {
 	background-image: linear-gradient(to bottom right, #243E90 0%, #457FBA 100%);
+    display : flex;
+	flex-flow: column;
+    min-height: 100vh;
 }
 
-.vote{
-	height: 200px;
-	background-color: lightgrey;
-	width: 100px;
-    color: white;
-    font-family: "Corbel";
+.font4{
     font-size: 4vmin;
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
     flex:1 1 auto;
 }
 
+.vote{
+    margin-bottom: 10px;
+}
+
 .card {
-	/*border : solid gray 1px;*/
-	box-shadow: inset 0px 0px 5px 5px lightgrey;
-	height: 250px;
-	background-color: lightgrey;
-	width: 200px;
+	background-color: rgba(204,204,204, 0.9);
 	margin-right:10px;
-	margin-top:10px;
-	flex:1 1 auto;
+	flex:1 ;
 }
 
 #buttonInside{
-	text-align: center;
-}
-
-
-.nypev{
-	position: relative;
-top: 50%;
-transform: translateY(-50%);
+    margin-top: 10px;
 }
 
 .hid{
-    color: white;
-    font-family: "Corbel";
-font-size: 5vmin;
-text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-position: relative;
-top: 50%;
-transform: translateY(-50%);
+    font-size: 5vmin;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    font-size: 2vmin;
+    margin-top: 15px;
+    flex: 1;
 }
 
 .nype {
-color: white;
-position: relative;
-top: 50%;
-transform: translateY(-50%);
-text-align: center;
-font-family: "Corbel";
-font-size: 8vmin;
-text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-flex: 1 1 auto;
-/*text-shadow: 4px 3px 22px rgba(63, 153, 150, 0.91);*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 8vmin;
+    flex: 1 1 auto;
 }

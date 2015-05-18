@@ -87,6 +87,7 @@
     <Content Include="Scripts\jquery-1.6.4.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
+    <Content Include="Scripts\MainController.js" />
     <Content Include="Styles\cards.css" />
     <Content Include="Web.config" />
   </ItemGroup>

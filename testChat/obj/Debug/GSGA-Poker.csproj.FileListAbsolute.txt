@@ -17,3 +17,21 @@ c:\users\vinicius.mariano\documents\visual studio 2013\Projects\testChat\testCha
 c:\users\vinicius.mariano\documents\visual studio 2013\Projects\testChat\testChat\obj\Debug\GSGA-Poker.csprojResolveAssemblyReference.cache
 c:\users\vinicius.mariano\documents\visual studio 2013\Projects\testChat\testChat\obj\Debug\testChat.dll
 c:\users\vinicius.mariano\documents\visual studio 2013\Projects\testChat\testChat\obj\Debug\testChat.pdb
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\testChat.dll.config
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\testChat.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\testChat.pdb
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin.Security.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Newtonsoft.Json.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Owin.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin.xml
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Microsoft.Owin.Security.xml
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\bin\Newtonsoft.Json.xml
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\obj\Debug\testChat.dll
+C:\Users\vinicius.mariano\Documents\GitHub\gsgaPoker\testChat\obj\Debug\testChat.pdb
