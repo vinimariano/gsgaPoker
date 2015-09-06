@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Web;
 using Microsoft.AspNet.SignalR;
-namespace SignalRChat
+
+namespace SignalRPoker
 {
-    public class ChatHub : Hub
+    public class PokerHub : Hub
     {
         public void Send(string name, string message)
         {

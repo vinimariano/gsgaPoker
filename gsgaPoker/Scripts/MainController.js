@@ -1,6 +1,6 @@
 ﻿$(function () {
         // Declare a proxy to reference the hub.
-        var chat = $.connection.chatHub;
+        var chat = $.connection.PokerHub;
         // Create a function that the hub can call to broadcast messages.
         chat.client.broadcastMessage = function (name, message) {
                     
