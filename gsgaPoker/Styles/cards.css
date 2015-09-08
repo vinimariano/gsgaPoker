@@ -1,16 +1,16 @@
-@media (max-width:450px){
-	#cardsContainer{
-	display : flex;
-	flex-flow: column;
-    	margin-top: 5px;
-					}
+@media (max-width:450px) {
+	#cardsContainer {
+	    display: flex;
+	    flex-flow: column;
+        margin-top: 5px;
+	}
 }
 
-@media (min-width:451px){
-	#cardsContainer{
-	display : flex;
-	margin-top: 5px;
-    flex: 3;
+@media (min-width:451px) {
+	#cardsContainer {
+	    display : flex;
+	    margin-top: 5px;
+        flex: 3;
 	}
 }
 
@@ -22,37 +22,37 @@ h4 {
 	margin-top: 1px;
 }
 
-#central{
+#central {
     padding-bottom: 10px;
 	display : flex;
 }
 
-header{
+header {
     flex: 1;
 }
 
-#sectionCentral{
+#sectionCentral {
     flex: 3;
 }
 
-.font{
-    	color : white;
-	    font-family: "Corbel";
+.font {
+    color : white;
+	font-family: "Corbel";
 }
 
-.shadow{
-        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+.shadow {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
-.center{
-        text-align: center;
+.center {
+    text-align: center;
 }
 
 .marginIt {
 	margin-bottom:5px;
 }
 
-#form{
+#form {
     flex: 1;
 }
 
@@ -63,20 +63,20 @@ body {
     min-height: 100vh;
 }
 
-.font4{
+.font4 {
     font-size: 4vmin;
     flex:1 1 auto;
 }
 
-.vote{
+.vote {
     margin-bottom: 10px;
 }
 
-#buttonInside{
+#buttonInside {
     margin-top: 10px;
 }
 
-.hid{
+.hid {
     font-size: 5vmin;
     position: relative;
     top: 50%;
