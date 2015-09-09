@@ -1,23 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-    <title>GSGA Poker</title>
-    <link type="text/css" rel="stylesheet" href="Styles/cards.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="Scripts/jquery-1.6.4.min.js"></script>
-    <script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
-    <script src="signalr/hubs"></script>
-    <script src="Scripts/MainController.js"></script>
-</head>
-<body >
+    <head>
+        <title>GSGA Poker</title>
+        <link type="text/css" rel="stylesheet" href="Styles/cards.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Scripts/jquery-1.6.4.min.js"></script>
+        <script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+        <script src="signalr/hubs"></script>
+        <script src="Scripts/MainController.js"></script>
+        <link rel="icon" type="image/png" href="Images/icon.png">
+
+        <!-- CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.3/components/button.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.3/components/input.min.css" />
+    </head>
+    <body >
         <header>
             <h1 class="font shadow">GeoSiGA Scrum Poker</h1>
             <h4 class="font"> A Simple and Light Planning Poker Application</h4>
         </header>
 
         <section id="form" class="center">
-            <input class=marginIt id="name" type=text placeholder="Your name"><br>
-            <button id="login"><span>Sign in</span></button>
+            <div class="ui action input">
+                <input class=marginIt id="name" type=text placeholder="Your name"><br>
+                <button id="login" class="ui button"><span>Sign in</span></button>
+            </div>
         </section>
 
         <section id="sectionCentral">
@@ -25,8 +32,8 @@
             </div>
 
             <div id="buttonInside" class="center">
-                <button id="reset"> Reset </button>
-                <button id="show"> Show Votes</button>
+                <button class="ui blue basic button" id="reset">Reset</button>
+                <button class="ui blue basic button" id="show">Show Votes</button>
             </div>
         </section>
 
@@ -55,7 +62,7 @@
         </section>
 
         <footer class="font shadow center">
-            Developed by Vinicius Mariano &copy;
+            Developed by Vinicius Mariano and Douglas da Costa &copy;
         </footer>
-</body>
+    </body>
 </html>
